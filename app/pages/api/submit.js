@@ -50,7 +50,7 @@ export default async function handler(req, res) {
 
       const mailOptions = {
         from: process.env.EMAIL_USER,
-        to: "nlathiya40@gmail.com",
+        to: "nimeshlathiya1@gmail.com",
         subject: "New Form Submission",
         text: `Name: ${name}\nEmail: ${email}\nDescription: ${description}`,
         attachments: [
